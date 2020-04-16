@@ -7,27 +7,30 @@
 
 /* WRAPPER: Reset, do not modify */
 .wrapper {
-    width: 650px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    /* width: 650px;
     height: 540px;
     margin: 50px auto 0;
     border: 2px solid gray;
 /** using 
 flexbox in class
 this 2 setting are in the parent, and are changing the actual box class**/   
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: flex-end;  */
 }
- .box {
-    width: 100px;
+.box {
+    justify-self: normal;
+    /* width: 100px;
     height: 100px;
-    border: solid rgb(230, 21, 21) 2px;
-} 
-#b1{
+    border: solid black 2px; */
+}
+/* #b1{
     margin-right: auto;
-}
-#b2{
-    align-items: center;
-}
+} */
 
 
 /* CSS FILE COMMENTS [ INLINE ] */
