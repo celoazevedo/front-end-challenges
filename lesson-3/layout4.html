@@ -13,69 +13,74 @@
   </script>
   <style> 
   .wrapper {
-    width: 650px;
-    height: 540px;
+    width: 500px;
+    height: 500px;
     margin: 50px auto 0;
-    border: 2px solid gray;
+    border: 2px solid gray; 
     display: flex;
-    /* justify-content: space-between; */
-    /* flex-direction: column; */
-/** using 
-flexbox in class
-this 2 setting are in the parent, and are changing the actual box class**/   
-    /* display: flex;
-    justify-content: center; */
+    /* align-items: center;
+    flex-direction: column; */
 }
- /* .box {
-    width: 150px;
-    height: 150px;
-    border: solid rgb(15, 9, 9) 2px;
-    justify-content: space-around;
-    flex-direction: row;
-}  */
+
 #b1{
     width: 150px;
     height: 150px;
-    border: solid rgb(15, 9, 9) 2px;
-    align-self: flex-start;
-    /* position: relative;
-    top: 100px;
-    right: -250px; */
-    background-color: white;
-    
-
-    /* margin-right: auto; */
+    border: solid rgb(230, 21, 21) 2px;  
+    display: flex;
+    /* margin-top: 30px; */
+    background-color: black;
+    /* justify-content: center; */
+    color: white;
 }
+
+
 #b2{
     width: 150px;
     height: 150px;
-    border: solid rgb(15, 9, 9) 2px;
-    /* align-self: flex-start; */
-    background-color: rgb(61, 60, 59);
+    border: solid rgb(230, 21, 21) 2px;
+    /* align-self: center;
+    justify-content: center;
+    align-items: center; */
+    color: white;
+    background-color: gray;
+    margin-top: 80px;
     position: relative;
-    top: 90px;
-    right: 60px;
-    
-    /* flex-direction: column-reverse; */
-    /* justify-items: center; */
+    right: 70px;
+} 
 
-}
 /* #b3{
-    align-self: flex-end;
-}  */
+    width: 150px;
+    height: 150px;
+    border: solid rgb(230, 21, 21) 2px;
+    align-self: center;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+} */
+
+/* #b2b3{
+    display: flex;
+} */
 
 </style>  
 </head>
 <body>
+  <h1>Table of Contents</h1> 
+  <ol>  
+    <li><a href="index.html" target="_blank"> Layout 1</a></li>
+    <li><a href="layout2.html" target="_blank"> Layout 2</a></li>
+    <li><a href="layout3.html" target="_blank"> Layout 3</a></li>
+    <li><a href="layout4.html" target="_blank"> Layout 4</a></li>
+  
+  </ol>
 
   <!-- WRAPPER -->
-  <div class="wrapper">
-    <div class="box" id="b1">Box 1</div>
-    <div class="box" id="b2">Box 2</div>
-    <!-- <div class="box" id="b3">Box 3</div> -->
+  <div class = "wrapper">
+    <div id = "b1">Box 1</div>
+    <div id = "b2">Box 2</div>
+    <!-- <div id = "b3">Box 3</div> -->
   </div>
   <!--// ENDS: WRAPPER -->
 
 </body>
 </html>
-
