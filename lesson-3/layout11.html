@@ -7,22 +7,84 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Challenge #3</title>
-  <link href="css/main.css" rel="stylesheet">
+  <!-- <link href="css/main.css" rel="stylesheet"> -->
   <script>
     // JAVASCRIPT
   </script>
+  <style> 
+  .wrapper {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto 0;
+    border: 2px solid gray; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: flex-end; */
+}
+
+#b1{
+    width: 250px;
+    height: 450px;
+    background-color:gray;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+#b2{
+    width: 200px;
+    height: 250px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+} 
+
+#b3{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    color: white;
+    font-family: cursive;
+    margin-bottom: 20px;
+    margin-right: 20px;
+} 
+
+
+</style>  
 </head>
 <body>
+  <h1>Table of Contents</h1> 
+  <ol>  
+    <li><a href="index.html" target="_blank"> Layout 1</a></li>
+    <li><a href="layout2.html" target="_blank"> Layout 2</a></li>
+    <li><a href="layout3.html" target="_blank"> Layout 3</a></li>
+    <li><a href="layout4.html" target="_blank"> Layout 4</a></li>
+    <li><a href="layout5.html" target="_blank"> Layout 5</a></li>
+    <li><a href="layout6.html" target="_blank"> Layout 6</a></li>
+    <li><a href="layout7.html" target="_blank"> Layout 7</a></li>
+    <li><a href="layout8.html" target="_blank"> Layout 8</a></li>
+    <li><a href="layout9.html" target="_blank"> Layout 9</a></li>
+    <li><a href="layout10.html" target="_blank"> Layout 10</a></li>
+    <li><a href="layout11.html" target="_blank"> Layout 11</a></li>
+  </ol>
 
   <!-- WRAPPER -->
-  <div class="wrapper">
-    <div class="box" id="b1">Box 1</div>
-    <div class="box">Box 2</div>
-    <div class="box">Box 3</div>
+  <div class = "wrapper">
+    <div id = "b1">
+      <div id = "b2">
+        <div id = "b3">Box 3</div>
+      </div>  
+    </div>
   </div>
   <!--// ENDS: WRAPPER -->
 
 </body>
 </html>
-
-
