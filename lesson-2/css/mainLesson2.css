@@ -6,30 +6,64 @@
 
 
 /* CSS FILE COMMENTS [ INLINE ] */
+/* - The `<section>` element should take up `3/4` 
+of the alloted viewport width and must use flexbox 
+properties to style this.
+- The `<aside>` element should take up `1/4` of 
+the alloted viewport width and must use flexbox 
+properties to style this. */
 
 .wrapper{
-    background-color: lightcyan;
+    background-color: #FDFEFE;
     margin: 20px;
     padding: 10px;
+    /* max-width: 1000px; */
     display: flex;
     /* flex-flow: row wrap; */
     flex-direction: row;
 
 }
 .main{
-    background-color: lightgoldenrodyellow;
+    background-color: #FBFEF2;
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    /* max-width: 750px; */
+
 
 }
 .sidebar{
-    background-color: lightgreen;
+    background-color:  #ECF0F6;
     border: 2px solid red;
     padding: 15px;
+    /* max-width: 250; */
 
 }
 
+.firstListTitle{
+    background-color: rgb(199, 60, 218);
+    padding: 5px;
+    align-self: center;
+    font-family: cursive;
+    font-style: italic;
+}
 
+.firstListItems{
+    background-color: rgb(199, 60, 218);
+    align-self: center;
+    border: 2px solid blue;
+    padding: 15px;
+}
 
+.secondListTitle{
+    background-color: cadetblue;
+    align-self: center;
 
+}
+
+.secondListItems{
+    background-color: cadetblue;
+    align-self: center;
+}
 
 
